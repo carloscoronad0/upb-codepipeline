@@ -113,7 +113,7 @@ Resources:
     Properties:
       Name: "/users-app/dynamodb/tableName"
       Type: String
-      Value: !Ref 
+      Value: !Ref UsersTable
       
   TableArn:
     Type: AWS::SSM::Parameter
